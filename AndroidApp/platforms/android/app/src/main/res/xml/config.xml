@@ -21,4 +21,5 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="APP_SECRET" value="9d1a3253-d682-4d1a-a664-3289d01997bc" />
 </widget>

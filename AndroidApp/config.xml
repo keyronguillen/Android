@@ -23,4 +23,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+	<platform name="android">
+	  <preference name="APP_SECRET" value="9d1a3253-d682-4d1a-a664-3289d01997bc" />
+	</platform>
 </widget>
