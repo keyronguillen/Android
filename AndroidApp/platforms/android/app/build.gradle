@@ -28,6 +28,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.0'
+		classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 
@@ -98,6 +99,8 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../cordova-plugin-code-push/hellocordova-build-extras.gradle"
+apply from: "../cordova-plugin-appcenter-push/hellocordova-AppCenterPush.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -182,6 +185,8 @@ task cdvPrintProps {
 }
 
 android {
+	compileSdkVersion rootProject.ext.compileSdkVersion
+	
     defaultConfig {
         versionCode cdvVersionCode ?: new BigInteger("" + privateHelpers.extractIntFromManifest("versionCode"))
         applicationId privateHelpers.extractStringFromManifest("package")
@@ -293,6 +298,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    implementation "com.microsoft.appcenter:appcenter:2.4.1"
+    implementation "com.microsoft.appcenter:appcenter-analytics:2.4.1"
+    implementation "com.microsoft.appcenter:appcenter-push:2.4.1"
     // SUB-PROJECT DEPENDENCIES END
 }
 
