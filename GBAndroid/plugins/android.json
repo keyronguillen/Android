@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-appcenter-analytics": {
+      "PACKAGE_NAME": "app.GBAndroid"
+    },
+    "cordova-plugin-appcenter-crashes": {
+      "PACKAGE_NAME": "app.GBAndroid"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "app.GBAndroid"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-appcenter-shared": {
+      "PACKAGE_NAME": "app.GBAndroid"
+    }
+  }
+}

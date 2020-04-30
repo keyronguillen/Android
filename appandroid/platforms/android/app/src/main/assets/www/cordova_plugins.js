@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
+      "id": "code-push.AcquisitionManager",
+      "file": "plugins/code-push/script/acquisition-sdk.js",
+      "pluginId": "code-push",
+      "merges": [
+        "window"
+      ]
+    },
+    {
       "id": "cordova-plugin-appcenter-shared.AppCenter",
       "file": "plugins/cordova-plugin-appcenter-shared/www/AppCenter.js",
       "pluginId": "cordova-plugin-appcenter-shared",
@@ -22,14 +30,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "pluginId": "cordova-plugin-appcenter-crashes",
       "clobbers": [
         "AppCenter.Crashes"
-      ]
-    },
-    {
-      "id": "code-push.AcquisitionManager",
-      "file": "plugins/code-push/script/acquisition-sdk.js",
-      "pluginId": "code-push",
-      "merges": [
-        "window"
       ]
     },
     {
@@ -331,16 +331,16 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     }
   ];
   module.exports.metadata = {
-    "cordova-plugin-whitelist": "1.3.4",
+    "code-push": "3.0.1",
     "cordova-plugin-appcenter-shared": "0.5.1",
     "cordova-plugin-appcenter-analytics": "0.5.1",
     "cordova-plugin-appcenter-crashes": "0.5.1",
-    "code-push": "3.0.1",
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-code-push": "1.12.2",
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-file-transfer": "1.6.3",
+    "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-zip": "3.1.0"
   };
 });

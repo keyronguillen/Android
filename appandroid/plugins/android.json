@@ -7,40 +7,40 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.example.appandroid"
-    },
     "cordova-plugin-appcenter-analytics": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-appcenter-crashes": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-code-push": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-zip": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-appcenter-shared": {
-      "PACKAGE_NAME": "com.example.appandroid"
-    },
     "code-push": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
+    },
+    "cordova-plugin-appcenter-shared": {
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.example.appandroid"
+      "PACKAGE_NAME": "app.GBAndroid"
     }
   }
 }
