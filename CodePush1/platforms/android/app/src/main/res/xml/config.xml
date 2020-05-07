@@ -33,5 +33,5 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="CodePush1" value="4e9dca7d-8eeb-48ed-b1d6-e0cf5ca11e82" />
+    <preference name="CodePush1" value="y_ldEaYoLy-xyozJunwaEWvoxmMI8sva4S_E3" />
 </widget>
