@@ -1,0 +1,10 @@
+steps:
+- task: ms-vsclient.code-push.codepush.tasks.releasecordova.CodePushReleaseCordova@1
+  workingDirectory: CordovaPrueba/platforms/android
+  displayName: 'Release update to Staging (CodePush)'
+  inputs:
+    accessKey: 'QZUoqUUQ2K7DkEZLxohAMzCqfdKzK-g8ujMhB'
+    appName: CodePush
+    shouldBuild: true
+    description: 'Primera Publicacion'
+    isMandatory: true
